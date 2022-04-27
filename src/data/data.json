@@ -1,0 +1,53 @@
+[
+  {
+    "type": "folder",
+    "name": "src",
+    "children": [
+      {
+        "type": "folder",
+        "name": "client",
+        "children": [
+          {
+            "type": "folder",
+            "name": "ui",
+            "children": [
+              { "type": "file", "name": "Toggle.js" },
+              { "type": "file", "name": "Button.js" }
+            ]
+          },
+          {
+            "type": "folder",
+            "name": "components",
+            "children": [
+              { "type": "file", "name": "Tree.js" },
+              { "type": "file", "name": "Tree.style.js" }
+            ]
+          },
+          { "type": "file", "name": "setup.js" },
+          { "type": "file", "name": "setupTests.js" }
+        ]
+      },
+      {
+        "type": "folder",
+        "name": "packages",
+        "children": [
+          {
+            "type": "file",
+            "name": "main.js"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "folder",
+    "name": "public",
+    "children": [
+      {
+        "type": "folder",
+        "name": "api",
+        "children": [{ "type": "file", "name": "data.json" }]
+      }
+    ]
+  }
+]

@@ -1,0 +1,19 @@
+/* Remove default bullets */
+ul {
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+}
+
+.tree__node {
+  cursor: pointer;
+}
+
+.node__block {
+  display: flex;
+  padding-left: 20px;
+}
+
+.folder__icon.active {
+  color: green;
+}
